@@ -6,7 +6,7 @@ from django.http import HttpResponse,JsonResponse
 # Create your views here.
 def index(request):
     
-    return render(request,'index.html')
+    return render(request,'base.html')
 
 
 def room(request,room):
